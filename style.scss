@@ -185,13 +185,30 @@
             border-radius: 32px;
             border: 3px solid #FFD76E;
             &_hint{
+                display: flex;
+                align-items: center;
+                justify-content: center;
                 width: 395.177px;
                 height: 215.775px;
                 border-radius: 32px;
                 background: rgba(255, 255, 255, 0.90);
+                @include Inter(400,32px)
 
             }
         }
+    }
+}
+.game{
+    height: 1362px;
+    background: url(/img/Rectangle\ 132.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:bottom;
+    &_title{
+        text-align: center;
+        @include Inter(600,64px);
+        padding-top: 64px;
+        color: #FFD76E;
     }
 }
 .first{

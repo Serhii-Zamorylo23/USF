@@ -203,10 +203,30 @@
   border: 3px solid #FFD76E;
 }
 .army_support-contnainer_card_hint {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 395.177px;
   height: 215.775px;
   border-radius: 32px;
   background: rgba(255, 255, 255, 0.9);
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.game {
+  height: 1362px;
+  background: url(/img/Rectangle\ 132.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+.game_title {
+  text-align: center;
+  font-size: 64px;
+  font-weight: 600;
+  padding-top: 64px;
+  color: #FFD76E;
 }
 
 .first {
