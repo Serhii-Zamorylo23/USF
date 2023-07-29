@@ -44,7 +44,6 @@
     &_wrapper{
         width: 989px;
         height: 526px;
-        background: gold;
         margin-left: 141.9px;
         &_title{
             @include Inter(400,128px);
@@ -60,6 +59,144 @@
             @include Inter(400,24px);
             line-height: normal;
             text-align: justify;
+            margin-top: 30px;
+            color: #fff;
+        }
+        &_btn{
+            width: 199.8px;
+            height: 60px;
+            border: none;
+            border-radius: 10px;
+            background: #FFD76E;
+            margin-top: 48px;
+            @include Inter(400,24px);
         }
     }
+}
+.about-us{
+    height:1211.03px;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    align-items: center;
+    &_text{
+        color: #FFD76E;
+        text-align: center;
+        width: 609px;
+        padding-top: 40px;
+        @include Inter(400,48px);
+    }
+    &_group{
+        position: absolute;
+        top:723px;
+        left: 0;
+    }
+    &_sub-title{
+        width: 505px;
+        text-align: justify;
+        color: #fff;
+    }
+}
+.city{
+    height: 297px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(/img/Rectangle\ 11.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    &_title{
+        @include Inter(700,24px);
+        padding-top: 72px;
+    }
+    &_title2{
+        @include Inter(400,24px);
+        width: 381px;
+        text-align: center;
+        padding-top: 25.3PX;
+    }
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 644px;
+    background: black;
+    column-gap: 170px;
+    &_img{
+        width: 396px;
+        height: 460px;
+        background: url(/img/Rectangle\ 4\ \(1\).png);
+        margin-left: 144px;
+        border: 2px solid #FFD76E;
+    }
+    &_text-container{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        width: 625px;
+        height: 463.2px;
+        background: firebrick;
+        &_title{
+            @include Inter(400,73px);
+            color: #FFD76E;
+        }
+        &_sub-title{
+            width: 500px;
+            text-align: justify;
+            padding-top: 46px;
+            @include Inter(400,24px);
+            color: white;
+        }
+        &_btn{
+            width: 200px;
+            height: 60px;
+            border-radius: 10px;
+            background: #FFD76E;
+            border: none;
+            margin-top: 132.72px;
+        }
+    }
+}
+.army{
+    height: 737.231px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #050404;
+    &_title{
+        color: #FFD76E;
+        text-align: center;
+        @include Inter(400,64px)
+    }
+    &_support-contnainer{
+        display: flex;
+        width: 1012.3px;
+        height: 528.86;
+        column-gap: 222.8px;
+        margin-top: 40px;
+        &_card{
+            display: flex;
+            align-items: end;
+            width: 395.177px;
+            height: 528.86px;
+            border-radius: 32px;
+            border: 3px solid #FFD76E;
+            &_hint{
+                width: 395.177px;
+                height: 215.775px;
+                border-radius: 32px;
+                background: rgba(255, 255, 255, 0.90);
+
+            }
+        }
+    }
+}
+.first{
+    background: url(/img/Rectangle\ 5\ \(1\).png);
+}
+.second{
+    background: url(/img/Rectangle\ 7.png);
 }

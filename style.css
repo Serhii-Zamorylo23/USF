@@ -44,7 +44,6 @@
 .support_wrapper {
   width: 989px;
   height: 526px;
-  background: gold;
   margin-left: 141.9px;
 }
 .support_wrapper_title {
@@ -64,4 +63,156 @@
   font-weight: 400;
   line-height: normal;
   text-align: justify;
+  margin-top: 30px;
+  color: #fff;
+}
+.support_wrapper_btn {
+  width: 199.8px;
+  height: 60px;
+  border: none;
+  border-radius: 10px;
+  background: #FFD76E;
+  margin-top: 48px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.about-us {
+  height: 1211.03px;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  align-items: center;
+}
+.about-us_text {
+  color: #FFD76E;
+  text-align: center;
+  width: 609px;
+  padding-top: 40px;
+  font-size: 48px;
+  font-weight: 400;
+}
+.about-us_group {
+  position: absolute;
+  top: 723px;
+  left: 0;
+}
+.about-us_sub-title {
+  width: 505px;
+  text-align: justify;
+  color: #fff;
+}
+
+.city {
+  height: 297px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url(/img/Rectangle\ 11.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.city_title {
+  font-size: 24px;
+  font-weight: 700;
+  padding-top: 72px;
+}
+.city_title2 {
+  font-size: 24px;
+  font-weight: 400;
+  width: 381px;
+  text-align: center;
+  padding-top: 25.3PX;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 644px;
+  background: black;
+  -moz-column-gap: 170px;
+       column-gap: 170px;
+}
+.info_img {
+  width: 396px;
+  height: 460px;
+  background: url(/img/Rectangle\ 4\ \(1\).png);
+  margin-left: 144px;
+  border: 2px solid #FFD76E;
+}
+.info_text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  width: 625px;
+  height: 463.2px;
+  background: firebrick;
+}
+.info_text-container_title {
+  font-size: 73px;
+  font-weight: 400;
+  color: #FFD76E;
+}
+.info_text-container_sub-title {
+  width: 500px;
+  text-align: justify;
+  padding-top: 46px;
+  font-size: 24px;
+  font-weight: 400;
+  color: white;
+}
+.info_text-container_btn {
+  width: 200px;
+  height: 60px;
+  border-radius: 10px;
+  background: #FFD76E;
+  border: none;
+  margin-top: 132.72px;
+}
+
+.army {
+  height: 737.231px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #050404;
+}
+.army_title {
+  color: #FFD76E;
+  text-align: center;
+  font-size: 64px;
+  font-weight: 400;
+}
+.army_support-contnainer {
+  display: flex;
+  width: 1012.3px;
+  height: 528.86;
+  -moz-column-gap: 222.8px;
+       column-gap: 222.8px;
+  margin-top: 40px;
+}
+.army_support-contnainer_card {
+  display: flex;
+  align-items: end;
+  width: 395.177px;
+  height: 528.86px;
+  border-radius: 32px;
+  border: 3px solid #FFD76E;
+}
+.army_support-contnainer_card_hint {
+  width: 395.177px;
+  height: 215.775px;
+  border-radius: 32px;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.first {
+  background: url(/img/Rectangle\ 5\ \(1\).png);
+}
+
+.second {
+  background: url(/img/Rectangle\ 7.png);
 }/*# sourceMappingURL=style.css.map */
