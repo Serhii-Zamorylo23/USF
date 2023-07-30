@@ -211,9 +211,162 @@
         color: #FFD76E;
     }
 }
+.achievements{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:888px;
+    background:black;
+    &_name{
+        @include Inter(400,64px);
+        color: #FFD76E;
+        text-align: center;
+        padding-top: 54px;
+    }
+    &_wrapper{
+        display: flex;
+        justify-content: space-between;
+        width: 1011px;
+        height: 621px;
+        margin-top: 24px;
+        &_left{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 308px;
+            height: 100%;
+            &_img{
+                height: 250px;
+                width: 100%;
+                background: url(/img/Rectangle\ 15.png);
+            }
+            &_text-cont{
+                height: 164px;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                border: 2px solid #FFD76E;
+                color: white;
+                @include Inter(400,20px);
+                text-align: justify;
+            }
+            &_bayraktar{
+                width: 260px;
+                height: 106px;
+                background: url(/img/Rectangle\ 21.png);
+            }
+        }
+        &_center{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 312px;
+            height: 100%;
+            &_text2{
+                display: flex;
+                align-items: center;
+                width: 312px;
+                height: 330px;
+                @include Inter(400,20px);
+                color: white;
+                text-align: justify;
+                border: 2px solid #FFD76E;
+            }
+            &_humanitarian{
+                width: 312px;
+                height: 250px;
+                background: url(/img/Rectangle\ 16.png);
+            }
+        }
+        &_right{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 312px;
+            height: 100%;
+            &_helicopter{
+                width: 312px;
+                height: 173px;
+                background: url(/img/Rectangle\ 19.png);
+            }
+            &_text3{
+                display: flex;
+                align-items: center;
+                width: 312px;
+                height: 436px;
+                border: 2px solid #FFD76E;
+                @include Inter(400,20px);
+                color: #fff;
+                text-align: justify;
+            }
+        }
+    }
+}
+.requisites{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 887px;
+    background: #050404;
+    &_title{
+        padding-top: 49.94px;
+        @include Inter(400,64px);
+        color: #FFD76E;
+    }
+    &_card{
+        display: flex;
+        flex-direction: column;
+        width: 752px;
+        height: 499.437px;
+        border-radius: 8px;
+        border: 4px solid #FFD76E;
+        background: #FFF;
+        margin-top: 100.87px;
+        padding: 36.98px 0 0 15px;
+        row-gap: 31.96px;
+        &_text-container{
+            display: flex;
+            flex-direction: column;
+            row-gap: 16.98px;
+            &_tex1{
+                @include Inter(300,20px);
+                color: #FFD76E
+            }
+            &_tex2{
+                @include Inter(500,20px);
+                color: black;
+            }
+        }
+    }
+}
 .first{
     background: url(/img/Rectangle\ 5\ \(1\).png);
 }
 .second{
     background: url(/img/Rectangle\ 7.png);
+}
+.footer{
+    height: 356px;
+    background: url(/img/Rectangle\ 132\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    &_title{
+        @include Inter(500,48px);
+        text-align: center;
+        padding-top: 132px;
+        color: #FFF;
+    }
+    &_img{
+        position: absolute;
+        top: 8223px;
+        left: 744px;
+    }
+    &_social{
+        position: absolute;
+        top: 8060px;
+        left: 1720px;
+        width: 64px;
+        height: 266px;
+        justify-content: center;
+    }
 }

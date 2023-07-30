@@ -229,10 +229,174 @@
   color: #FFD76E;
 }
 
+.achievements {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 888px;
+  background: black;
+}
+.achievements_name {
+  font-size: 64px;
+  font-weight: 400;
+  color: #FFD76E;
+  text-align: center;
+  padding-top: 54px;
+}
+.achievements_wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 1011px;
+  height: 621px;
+  margin-top: 24px;
+}
+.achievements_wrapper_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 308px;
+  height: 100%;
+}
+.achievements_wrapper_left_img {
+  height: 250px;
+  width: 100%;
+  background: url(/img/Rectangle\ 15.png);
+}
+.achievements_wrapper_left_text-cont {
+  height: 164px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: 2px solid #FFD76E;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: justify;
+}
+.achievements_wrapper_left_bayraktar {
+  width: 260px;
+  height: 106px;
+  background: url(/img/Rectangle\ 21.png);
+}
+.achievements_wrapper_center {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 312px;
+  height: 100%;
+}
+.achievements_wrapper_center_text2 {
+  display: flex;
+  align-items: center;
+  width: 312px;
+  height: 330px;
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  text-align: justify;
+  border: 2px solid #FFD76E;
+}
+.achievements_wrapper_center_humanitarian {
+  width: 312px;
+  height: 250px;
+  background: url(/img/Rectangle\ 16.png);
+}
+.achievements_wrapper_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 312px;
+  height: 100%;
+}
+.achievements_wrapper_right_helicopter {
+  width: 312px;
+  height: 173px;
+  background: url(/img/Rectangle\ 19.png);
+}
+.achievements_wrapper_right_text3 {
+  display: flex;
+  align-items: center;
+  width: 312px;
+  height: 436px;
+  border: 2px solid #FFD76E;
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  text-align: justify;
+}
+
+.requisites {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 887px;
+  background: #050404;
+}
+.requisites_title {
+  padding-top: 49.94px;
+  font-size: 64px;
+  font-weight: 400;
+  color: #FFD76E;
+}
+.requisites_card {
+  display: flex;
+  flex-direction: column;
+  width: 752px;
+  height: 499.437px;
+  border-radius: 8px;
+  border: 4px solid #FFD76E;
+  background: #FFF;
+  margin-top: 100.87px;
+  padding: 36.98px 0 0 15px;
+  row-gap: 31.96px;
+}
+.requisites_card_text-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16.98px;
+}
+.requisites_card_text-container_tex1 {
+  font-size: 20px;
+  font-weight: 300;
+  color: #FFD76E;
+}
+.requisites_card_text-container_tex2 {
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+}
+
 .first {
   background: url(/img/Rectangle\ 5\ \(1\).png);
 }
 
 .second {
   background: url(/img/Rectangle\ 7.png);
+}
+
+.footer {
+  height: 356px;
+  background: url(/img/Rectangle\ 132\ \(1\).png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.footer_title {
+  font-size: 48px;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 132px;
+  color: #FFF;
+}
+.footer_img {
+  position: absolute;
+  top: 8223px;
+  left: 744px;
+}
+.footer_social {
+  position: absolute;
+  top: 8060px;
+  left: 1720px;
+  width: 64px;
+  height: 266px;
+  justify-content: center;
 }/*# sourceMappingURL=style.css.map */
