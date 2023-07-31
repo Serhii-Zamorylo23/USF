@@ -138,7 +138,6 @@
         align-items: end;
         width: 625px;
         height: 463.2px;
-        background: firebrick;
         &_title{
             @include Inter(400,73px);
             color: #FFD76E;
@@ -199,6 +198,9 @@
     }
 }
 .game{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height: 1362px;
     background: url(/img/Rectangle\ 132.png);
     background-repeat:no-repeat;
@@ -209,6 +211,74 @@
         @include Inter(600,64px);
         padding-top: 64px;
         color: #FFD76E;
+    }
+    &_slider{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 1134px;
+        height: 345.27px;
+        margin-top: 30px;
+        &_card-cont{
+            display: flex;
+            justify-content: space-between;
+            width: 1041.79px;
+            height: 100%;
+            &_card{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                Width:301.79px;
+                Height:100%;
+                &_img{
+                    Width:301.79px;
+                    Height:294.32px;
+                    background: #FFF;
+                }
+                &_title{
+                    @include Inter(400,24px);
+                    color: #FFF;
+                    padding-top: 22.51px;
+                }
+            }
+        }
+    }
+    &_title2{
+        text-align: center;
+        @include Inter(600,64px);
+        padding-top: 64px;
+        color: #FFD76E;
+    }
+    &_slider2{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 1134px;
+        height: 345.27px;
+        margin-top: 30px;
+        &_card-cont2{
+            display: flex;
+            justify-content: space-between;
+            width: 1041.79px;
+            height: 100%;
+            &_card2{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                Width:301.79px;
+                Height:100%;
+                &_img2{
+                    Width:301.79px;
+                    Height:294.32px;
+                    background: #FFF;
+                }
+                &_title2{
+                    @include Inter(400,24px);
+                    color: #FFF;
+                    padding-top: 22.51px;
+                }
+            }
+        }
     }
 }
 .achievements{

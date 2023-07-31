@@ -149,7 +149,6 @@
   align-items: end;
   width: 625px;
   height: 463.2px;
-  background: firebrick;
 }
 .info_text-container_title {
   font-size: 73px;
@@ -215,6 +214,9 @@
 }
 
 .game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   height: 1362px;
   background: url(/img/Rectangle\ 132.png);
   background-repeat: no-repeat;
@@ -227,6 +229,77 @@
   font-weight: 600;
   padding-top: 64px;
   color: #FFD76E;
+}
+.game_slider {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1134px;
+  height: 345.27px;
+  margin-top: 30px;
+}
+.game_slider_card-cont {
+  display: flex;
+  justify-content: space-between;
+  width: 1041.79px;
+  height: 100%;
+}
+.game_slider_card-cont_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  Width: 301.79px;
+  Height: 100%;
+}
+.game_slider_card-cont_card_img {
+  Width: 301.79px;
+  Height: 294.32px;
+  background: #FFF;
+}
+.game_slider_card-cont_card_title {
+  font-size: 24px;
+  font-weight: 400;
+  color: #FFF;
+  padding-top: 22.51px;
+}
+.game_title2 {
+  text-align: center;
+  font-size: 64px;
+  font-weight: 600;
+  padding-top: 64px;
+  color: #FFD76E;
+}
+.game_slider2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1134px;
+  height: 345.27px;
+  margin-top: 30px;
+}
+.game_slider2_card-cont2 {
+  display: flex;
+  justify-content: space-between;
+  width: 1041.79px;
+  height: 100%;
+}
+.game_slider2_card-cont2_card2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  Width: 301.79px;
+  Height: 100%;
+}
+.game_slider2_card-cont2_card2_img2 {
+  Width: 301.79px;
+  Height: 294.32px;
+  background: #FFF;
+}
+.game_slider2_card-cont2_card2_title2 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #FFF;
+  padding-top: 22.51px;
 }
 
 .achievements {
