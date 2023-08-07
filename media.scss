@@ -1,0 +1,70 @@
+@mixin Inter ($weight,$size){
+    font-size: $size;
+    font-weight: $weight;
+}
+@media screen and (min-width:425px) and (max-width:426px) {
+    .header{
+        width: 100%;
+        height: 269px;
+        &_wrapper{
+            &_nav{
+                flex-direction: column;
+                justify-content: center;
+                width: 270px;
+                height: 100%;
+                row-gap: 30px;
+                @include Inter(300,16px)
+            }
+        }
+    }
+    .support{
+        background: url(/img/Rectangle\ 130\ \(1\).png);
+        &_wrapper{
+            display: flex;
+            flex-direction: column;
+            row-gap: 11px;
+            width: 312PX;
+            height: 392px;
+            margin: 0 auto;
+            &_title{
+                @include Inter(400,40px);
+                margin: 0;
+            }
+            &_sub-title{
+                @include Inter(400,40px);
+                margin: 0;
+            }
+            &_sub-title2{
+                @include Inter(400,24px);
+                width: 312px;
+                height: 203px;
+                align-items: center;
+                text-align: justify;
+                margin: 0;
+            }
+            &_btn{
+                width: 143px;
+                height: 60px;
+                @include Inter(400,20px);
+                margin: 0;
+            }
+        }
+    }
+    .about-us{
+        &_group{
+            display: none;
+        }
+        &_text{
+            @include Inter(400,24px);
+            width: 305px;
+        }
+        &_title{
+            @include Inter(400,20px);
+            text-align: justify;
+        }
+        &_sub-title{
+            @include Inter(400,20px);
+            width: 100%;
+        }
+    }
+}
