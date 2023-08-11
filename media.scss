@@ -2,7 +2,7 @@
     font-size: $size;
     font-weight: $weight;
 }
-@media screen and (min-width:425px) and (max-width:426px) {
+@media screen and (min-width:425px) and (max-width:767px){
     .header{
         width: 100%;
         height: 269px;
@@ -51,6 +51,7 @@
         }
     }
     .about-us{
+        height: 1573px;
         &_group{
             display: none;
         }
@@ -65,6 +66,153 @@
         &_sub-title{
             @include Inter(400,20px);
             width: 100%;
+        }
+        &_pc{
+            display: none;
+        }
+        &_founders{
+            display: flex;
+            flex-direction: column;
+            width: 302px;
+            height: 1248px;
+            background: rgb(27, 121, 179);
+            color: blue;
+            row-gap: 26px;
+            color: #FFD76E;
+            margin-top: 81px;
+            &_block1{
+                width: 300px;
+                height: 255px;
+                &_img{
+                    width: 100%;
+                    height: 218px;
+                    border: 2px solid #FFD76E;
+                    background: url(/img/Снимок\ экрана\ \(205\)\ 1\ \(1\).png);
+                }
+                &_img2{
+                    width: 100%;
+                    height: 210px;
+                    border: 2px solid #FFD76E;
+                    background: url(/img/Снимок\ экрана\ \(205\)\ 2.png);
+                }
+                &_img4{
+                    width: 100%;
+                    height: 220px;
+                    border: 2px solid #FFD76E;
+                    background: url(/img/Снимок\ экрана\ \(206\)\ 1.png);
+                }
+                &_name{
+                    @include Inter(400,24px);
+                    text-align: center;
+                }
+            }
+            &_name{
+                text-align: center;
+                padding: 0;
+                margin: 0;
+                @include Inter(700,20px);
+            }
+            &_block2{
+                width: 212px;
+                height: 351px;
+                @include Inter(700,20px);
+                &_img3{
+                    width: 100%;
+                    height: 314px;
+                    border: 2px solid #FFD76E;
+                    background: url(/img/Снимок\ экрана\ \(207\)\ 1.png);
+                }
+                &_name{
+                    @include Inter(400,24px);
+                    padding-left: 20px;
+                }
+            }
+        }
+    }
+    .info{
+        display: flex;
+        flex-direction: column;
+        height: 1165px;
+        &_img{
+            margin-left: 0;
+        }
+        &_text-container{
+            width: 411px;
+            height: 631PX;
+            align-items: start;
+            &_sub-title{
+                width: 368px;
+                height: 283px;
+                align-items: start;
+            }
+            &_btn{
+                width: 132px;
+                height: 82px;
+                margin: 0 auto;
+                margin-top: 94px;
+            }
+        }
+    }
+    .army{
+        display: none;
+    }
+    .game{
+        &_slider{
+            width: 425px;
+            flex-direction: column;
+            &_card-cont{
+                display: contents;
+            }
+            &_row{
+                display: none;
+            }
+        }
+        &_title2{
+            display: none;
+        }
+        &_slider2{
+            display: none;
+        }
+    }
+    .achievements{
+        height: 2127px;
+        &_wrapper{
+            display: block;
+            width: 425px;
+            justify-content: center;
+            row-gap: 10px;
+            &_left{
+                margin: 0 auto;
+            }
+            &_center{
+                margin: 0 auto;
+            }
+            &_right{
+                margin: 0 auto;
+            }
+        }
+    }
+    .requisites{
+        display: none;
+    }
+    .footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 425px;
+        height: 958px;
+        background: url(/img/Rectangle\ 132\ \(2\).png);
+        &_img{
+            display: none;
+        }
+        &_title{
+            justify-content: center;
+            align-items: center;
+        }
+        &_social{
+            position: absolute;
+            top: 9383px;
+            left: 201px;
         }
     }
 }
