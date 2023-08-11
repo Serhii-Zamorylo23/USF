@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@media screen and (min-width: 425px) and (max-width: 767px) {
+@media screen and (max-width: 426px) {
   .header {
     width: 100%;
     height: 269px;
@@ -219,5 +219,154 @@
     position: absolute;
     top: 9383px;
     left: 201px;
+  }
+}
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .support_wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin: 0;
+  }
+  .support_wrapper_title {
+    font-size: 48px;
+    font-weight: 400;
+  }
+  .support_wrapper_sub-title {
+    font-size: 48px;
+    font-weight: 400;
+  }
+  .about-us {
+    height: 1394.03px;
+  }
+  .about-us_group {
+    display: none;
+  }
+  .about-us_pc {
+    display: none;
+  }
+  .about-us_founders {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    width: 100%;
+    height: 769px;
+  }
+  .about-us_founders_block1 {
+    display: block;
+    height: 300px;
+  }
+  .about-us_founders_block1_img {
+    width: 313px;
+    height: 218px;
+    border: 2px solid #FFD76E;
+    background: url(/img/Снимок\ экрана\ \(205\)\ 1\ \(1\).png);
+  }
+  .about-us_founders_block1_img2 {
+    width: 302px;
+    height: 210px;
+    border: 2px solid #FFD76E;
+    background: url(/img/Снимок\ экрана\ \(205\)\ 2.png);
+  }
+  .about-us_founders_block1_img4 {
+    width: 300px;
+    height: 220px;
+    border: 2px solid #FFD76E;
+    background: url(/img/Снимок\ экрана\ \(206\)\ 1.png);
+  }
+  .about-us_founders_block1_name {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+  }
+  .about-us_founders_block2 {
+    display: block;
+    width: 212px;
+    height: 351px;
+  }
+  .about-us_founders_block2_img3 {
+    width: 100%;
+    height: 314px;
+    border: 2px solid #FFD76E;
+    background: url(/img/Снимок\ экрана\ \(207\)\ 1.png);
+  }
+  .about-us_founders_block2_name {
+    font-size: 24px;
+    font-weight: 400;
+    padding-left: 20px;
+    color: #fff;
+  }
+  .info {
+    -moz-column-gap: 12px;
+         column-gap: 12px;
+  }
+  .info_img {
+    margin-left: 0;
+  }
+  .info_text-container {
+    width: 360px;
+    height: 527px;
+  }
+  .info_text-container_sub-title {
+    width: 359px;
+    height: 216px;
+  }
+  .info_text-container_btn {
+    margin-top: 31px;
+  }
+  .army {
+    display: none;
+  }
+  .game_slider {
+    width: 100%;
+    height: 1023px;
+    flex-direction: column;
+  }
+  .game_slider_card-cont {
+    display: contents;
+  }
+  .game_slider_row {
+    display: none;
+  }
+  .game_title2 {
+    display: none;
+  }
+  .game_slider2 {
+    display: none;
+  }
+  .achievements {
+    height: 2127px;
+  }
+  .achievements_wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1985px;
+    justify-content: center;
+    row-gap: 10px;
+  }
+  .achievements_wrapper_left {
+    margin: 0 auto;
+  }
+  .achievements_wrapper_center {
+    margin: 0 auto;
+  }
+  .achievements_wrapper_right {
+    margin: 0 auto;
+  }
+  .requisites {
+    display: none;
+  }
+  .footer_img {
+    display: none;
+  }
+  .footer_social {
+    position: absolute;
+    top: 7876px;
+    left: 691px;
+    height: 286px;
   }
 }/*# sourceMappingURL=media.css.map */

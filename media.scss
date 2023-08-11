@@ -2,7 +2,7 @@
     font-size: $size;
     font-weight: $weight;
 }
-@media screen and (min-width:425px) and (max-width:767px){
+@media screen and (max-width:426px){
     .header{
         width: 100%;
         height: 269px;
@@ -213,6 +213,156 @@
             position: absolute;
             top: 9383px;
             left: 201px;
+        }
+    }
+}
+@media screen and (min-width:426px) and (max-width:768px){
+    .support{
+        &_wrapper{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+            margin: 0;
+            &_title{
+                @include Inter(400,48px);
+            }
+            &_sub-title{
+                @include Inter(400,48px);
+            }
+        }
+    }
+    .about-us{
+        height: 1394.03px;
+        &_group{
+            display: none;
+        }
+        &_pc{
+            display: none;
+        }
+        &_founders{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            row-gap: 10px;
+            width: 100%;
+            height: 769px;
+            &_block1{
+                display: block;
+                height: 300px;
+                &_img{
+                    width: 313px;
+                    height: 218px;
+                    border: 2px solid #FFD76E;
+                    background: url(/img/Снимок\ экрана\ \(205\)\ 1\ \(1\).png);
+                }
+                &_img2{
+                    width: 302px;
+                    height: 210px;
+                    border: 2px solid #FFD76E;
+                    background: url(/img/Снимок\ экрана\ \(205\)\ 2.png);
+                }
+                &_img4{
+                    width: 300px;
+                    height: 220px;
+                    border: 2px solid #FFD76E;
+                    background: url(/img/Снимок\ экрана\ \(206\)\ 1.png);
+                }
+                &_name{
+                    @include Inter(400,24px);
+                    text-align: center;
+                    color: #fff;
+                }
+            }
+            &_block2{
+                display: block;
+                width: 212px;
+                height: 351px;
+                &_img3{
+                    width: 100%;
+                    height: 314px;
+                    border: 2px solid #FFD76E;
+                    background: url(/img/Снимок\ экрана\ \(207\)\ 1.png);
+                }
+                &_name{
+                    @include Inter(400,24px);
+                    padding-left: 20px;
+                    color: #fff;
+                }
+            }
+        }
+    }
+    .info{
+        column-gap: 12px;
+        &_img{
+            margin-left: 0;
+        }
+        &_text-container{
+            width: 360px;
+            height: 527px;
+            &_sub-title{
+                width: 359px;
+                height: 216px;
+            }
+            &_btn{
+                margin-top:31px;
+            }
+        }
+    }
+    .army{
+        display: none;
+    }
+    .game{
+        &_slider{
+            width: 100%;
+            height: 1023px;
+            flex-direction: column;
+            &_card-cont{
+                display: contents;
+            }
+            &_row{
+                display: none;
+            }
+        }
+        &_title2{
+            display: none;
+        }
+        &_slider2{
+            display: none;
+        }
+    }
+    .achievements{
+        height: 2127px;
+        &_wrapper{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 1985px;
+            justify-content: center;
+            row-gap: 10px;
+            &_left{
+                margin: 0 auto;
+            }
+            &_center{
+                margin: 0 auto;
+            }
+            &_right{
+                margin: 0 auto;
+            }
+        }
+    }
+    .requisites{
+        display: none;
+    }
+    .footer{
+        &_img{
+            display: none;
+        }
+        &_social{
+            position: absolute;
+            top: 7876px;
+            left: 691px;
+            height: 286px;
         }
     }
 }
